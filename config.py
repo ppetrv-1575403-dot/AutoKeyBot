@@ -8,7 +8,7 @@ load_dotenv()
 # ID администратора (можно узнать у @userinfobot)
 ADMIN_ID = os.environ["TG_ADMIN_ID"]  # Замените на ваш Telegram ID
 # Токен бота от @BotFather
-BOT_TOKEN =  os.environ["TG_BOT_TOKEN"]
+BOT_TOKEN = os.environ["TG_BOT_TOKEN"]
 
 # Данные от ЮKassa (https://yookassa.ru)
 SHOP_ID = os.environ["YK_SHOP_ID"]
