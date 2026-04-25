@@ -1,9 +1,8 @@
 # bot.py
-import asyncio
-import logging
 import json
+import logging
 import uuid
-from datetime import datetime
+
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton

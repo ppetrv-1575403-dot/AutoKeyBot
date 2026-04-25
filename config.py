@@ -1,17 +1,18 @@
 # config.py
+from dotenv import load_dotenv
 import os
+from datetime import datetime
 
-
-
-# Токен бота от @BotFather
-BOT_TOKEN = "ВАШ_ТОКЕН_БОТА"
-
-# Данные от ЮKassa (https://yookassa.ru)
-SHOP_ID = "1341052"
-SECRET_KEY = "test_qZadw9ADs8WKJhYcoWcIfmMq2dUngKfoJCfEetg9lfg"
+load_dotenv()
 
 # ID администратора (можно узнать у @userinfobot)
-ADMIN_ID = 123456789  # Замените на ваш Telegram ID
+ADMIN_ID = os.environ["TG_ADMIN_ID"]  # Замените на ваш Telegram ID
+# Токен бота от @BotFather
+BOT_TOKEN =  os.environ["TG_BOT_TOKEN"]
+
+# Данные от ЮKassa (https://yookassa.ru)
+SHOP_ID = os.environ["YK_SHOP_ID"]
+SECRET_KEY = os.environ["YK_SECRET_KEY"]
 
 # Настройки базы данных
 DATABASE_NAME = "keys_bot.db"
