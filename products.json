@@ -1,0 +1,20 @@
+{
+    "product_1": {
+        "name": "Premium Game Key",
+        "description": "Лицензионный ключ для игры Premium Game",
+        "price": 299,
+        "emoji": "🎮"
+    },
+    "product_2": {
+        "name": "Software License",
+        "description": "Годовая лицензия на программное обеспечение",
+        "price": 499,
+        "emoji": "💻"
+    },
+    "product_3": {
+        "name": "Gift Card $10",
+        "description": "Подарочная карта на $10",
+        "price": 699,
+        "emoji": "🎁"
+    }
+}
